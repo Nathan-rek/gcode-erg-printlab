@@ -1,0 +1,590 @@
+G21         ; Set units to mm
+G90         ; Absolute positioning
+
+;
+; Operation:    0
+; Type:         Mill Cut
+; Paths:        44
+; Direction:    Conventional
+; Rapid Z:      5
+; Start Z:      0
+; End Z:        -0.2
+; Pass Depth:   1
+; Plunge rate:  4000 mm/min
+; Cut rate:     4000 mm/min
+;
+; Retract
+G0 Z5.000
+
+; Path 0
+; Rapid to initial position
+G0 X158.585 Y182.047
+G0 Z0.000
+; plunge
+G1 Z-0.200 F4000
+; cut
+G1 X166.290 Y164.887 F4000
+G1 X149.434 Y184.682
+G1 X138.633 Y176.324
+G1 X143.619 Y161.708
+G1 X155.304 Y159.652
+G1 X140.956 Y167.947
+G1 X141.555 Y161.551
+G1 X137.813 Y149.958
+G1 X168.944 Y140.161
+G1 X158.604 Y144.944
+G1 X127.372 Y192.221
+G1 X122.119 Y160.067
+G1 X139.721 Y135.931
+G1 X137.638 Y141.534
+G1 X126.505 Y129.535
+G1 X139.610 Y168.536
+G1 X135.389 Y119.592
+G1 X117.704 Y127.010
+G1 X121.252 Y112.763
+G1 X100.535 Y97.852
+G1 X104.664 Y123.352
+G1 X87.237 Y115.868
+G1 X84.527 Y129.489
+G1 X61.377 Y115.269
+G1 X89.181 Y98.690
+G1 X78.242 Y118.292
+G1 X173.487 Y101.197
+G1 X85.532 Y80.922
+G1 X82.131 Y85.973
+G1 X106.903 Y49.745
+G1 X204.941 Y81.835
+G1 X79.993 Y91.714
+G1 X66.833 Y81.374
+G1 X107.558 Y39.267
+G1 X78.399 Y84.406
+G1 X88.665 Y33.498
+G1 X93.292 Y75.568
+G1 X81.624 Y77.890
+G1 X129.648 Y105.556
+G1 X84.113 Y214.588
+G1 X83.661 Y93.244
+G1 X93.725 Y89.124
+G1 X78.777 Y86.157
+G1 X78.159 Y88.534
+G1 X77.496 Y90.885
+G1 X76.777 Y93.198
+; Retract
+G0 Z5.000
+
+; Path 1
+; Rapid to initial position
+G0 X79.993 Y91.714
+G0 Z0.000
+; plunge
+G1 Z-0.200 F4000
+; cut
+G1 X166.787 Y149.911 F4000
+G1 X176.095 Y159.284
+; Retract
+G0 Z5.000
+
+; Path 2
+; Rapid to initial position
+G0 X169.202 Y163.330
+G0 Z0.000
+; plunge
+G1 Z-0.200 F4000
+; cut
+G1 X161.009 Y161.367 F4000
+G1 X137.813 Y149.958
+; Retract
+G0 Z5.000
+
+; Path 3
+; Rapid to initial position
+G0 X142.725 Y150.520
+G0 Z0.000
+; plunge
+G1 Z-0.200 F4000
+; cut
+G1 X150.955 Y163.578 F4000
+G1 X149.434 Y184.682
+; Retract
+G0 Z5.000
+
+; Path 4
+; Rapid to initial position
+G0 X149.434 Y184.682
+G0 Z0.000
+; plunge
+G1 Z-0.200 F4000
+; cut
+G1 X158.641 Y196.995 F4000
+G1 X158.097 Y201.492
+; Retract
+G0 Z5.000
+
+; Path 5
+; Rapid to initial position
+G0 X153.646 Y187.484
+G0 Z0.000
+; plunge
+G1 Z-0.200 F4000
+; cut
+G1 X157.710 Y172.112 F4000
+G1 X137.638 Y141.534
+; Retract
+G0 Z5.000
+
+; Path 6
+; Rapid to initial position
+G0 X131.325 Y147.598
+G0 Z0.000
+; plunge
+G1 Z-0.200 F4000
+; cut
+G1 X142.716 Y138.042 F4000
+G1 X173.487 Y101.197
+; Retract
+G0 Z5.000
+
+; Path 7
+; Rapid to initial position
+G0 X173.487 Y101.197
+G0 Z0.000
+; plunge
+G1 Z-0.200 F4000
+; cut
+G1 X247.444 Y130.706 F4000
+G1 X257.212 Y125.665
+; Retract
+G0 Z5.000
+
+; Path 8
+; Rapid to initial position
+G0 X235.776 Y138.631
+G0 Z0.000
+; plunge
+G1 Z-0.200 F4000
+; cut
+G1 X252.826 Y137.876 F4000
+G1 X204.941 Y81.835
+; Retract
+G0 Z5.000
+
+; Path 9
+; Rapid to initial position
+G0 X203.678 Y121.997
+G0 Z0.000
+; plunge
+G1 Z-0.200 F4000
+; cut
+G1 X193.412 Y133.738 F4000
+G1 X93.725 Y89.124
+; Retract
+G0 Z5.000
+
+; Path 10
+; Rapid to initial position
+G0 X100.535 Y97.852
+G0 Z0.000
+; plunge
+G1 Z-0.200 F4000
+; cut
+G1 X137.260 Y122.080 F4000
+G1 X133.905 Y120.532
+; Retract
+G0 Z5.000
+
+; Path 11
+; Rapid to initial position
+G0 X135.389 Y119.592
+G0 Z0.000
+; plunge
+G1 Z-0.200 F4000
+; cut
+G1 X162.244 Y153.303 F4000
+G1 X160.438 Y168.942
+; Retract
+G0 Z5.000
+
+; Path 12
+; Rapid to initial position
+G0 X166.290 Y164.887
+G0 Z0.000
+; plunge
+G1 Z-0.200 F4000
+; cut
+G1 X182.657 Y159.929 F4000
+G1 X192.426 Y149.266
+; Retract
+G0 Z5.000
+
+; Path 13
+; Rapid to initial position
+G0 X185.956 Y128.337
+G0 Z0.000
+; plunge
+G1 Z-0.200 F4000
+; cut
+G1 X177.957 Y132.070 F4000
+G1 X84.113 Y214.588
+; Retract
+G0 Z5.000
+
+; Path 14
+; Rapid to initial position
+G0 X84.113 Y214.588
+G0 Z0.000
+; plunge
+G1 Z-0.200 F4000
+; cut
+G1 X181.523 Y265.283 F4000
+G1 X188.914 Y262.832
+; Retract
+G0 Z5.000
+
+; Path 15
+; Rapid to initial position
+G0 X181.643 Y210.708
+G0 Z0.000
+; plunge
+G1 Z-0.200 F4000
+; cut
+G1 X174.141 Y197.677 F4000
+G1 X139.610 Y168.536
+; Retract
+G0 Z5.000
+
+; Path 16
+; Rapid to initial position
+G0 X140.956 Y167.947
+G0 Z0.000
+; plunge
+G1 Z-0.200 F4000
+; cut
+G1 X138.707 Y176.886 F4000
+G1 X123.363 Y177.780
+; Retract
+G0 Z5.000
+
+; Path 17
+; Rapid to initial position
+G0 X119.391 Y179.171
+G0 Z0.000
+; plunge
+G1 Z-0.200 F4000
+; cut
+G1 X122.257 Y176.407 F4000
+G1 X122.119 Y160.067
+; Retract
+G0 Z5.000
+
+; Path 18
+; Rapid to initial position
+G0 X122.119 Y160.067
+G0 Z0.000
+; plunge
+G1 Z-0.200 F4000
+; cut
+G1 X160.189 Y171.181 F4000
+G1 X166.538 Y182.849
+; Retract
+G0 Z5.000
+
+; Path 19
+; Rapid to initial position
+G0 X167.985 Y178.314
+G0 Z0.000
+; plunge
+G1 Z-0.200 F4000
+; cut
+G1 X166.188 Y173.310 F4000
+G1 X155.304 Y159.652
+; Retract
+G0 Z5.000
+
+; Path 20
+; Rapid to initial position
+G0 X155.304 Y159.652
+G0 Z0.000
+; plunge
+G1 Z-0.200 F4000
+; cut
+G1 X133.325 Y168.057 F4000
+G1 X118.543 Y167.818
+; Retract
+G0 Z5.000
+
+; Path 21
+; Rapid to initial position
+G0 X136.808 Y158.786
+G0 Z0.000
+; plunge
+G1 Z-0.200 F4000
+; cut
+G1 X132.542 Y157.920 F4000
+G1 X84.527 Y129.489
+; Retract
+G0 Z5.000
+
+; Path 22
+; Rapid to initial position
+G0 X78.242 Y118.292
+G0 Z0.000
+; plunge
+G1 Z-0.200 F4000
+; cut
+G1 X73.856 Y153.036 F4000
+G1 X76.860 Y168.951
+; Retract
+G0 Z5.000
+
+; Path 23
+; Rapid to initial position
+G0 X88.426 Y144.751
+G0 Z0.000
+; plunge
+G1 Z-0.200 F4000
+; cut
+G1 X102.424 Y141.700 F4000
+G1 X117.704 Y127.010
+; Retract
+G0 Z5.000
+
+; Path 24
+; Rapid to initial position
+G0 X117.704 Y127.010
+G0 Z0.000
+; plunge
+G1 Z-0.200 F4000
+; cut
+G1 X171.377 Y127.923 F4000
+G1 X178.445 Y117.205
+; Retract
+G0 Z5.000
+
+; Path 25
+; Rapid to initial position
+G0 X167.912 Y109.639
+G0 Z0.000
+; plunge
+G1 Z-0.200 F4000
+; cut
+G1 X160.972 Y123.969 F4000
+G1 X107.558 Y39.267
+; Retract
+G0 Z5.000
+
+; Path 26
+; Rapid to initial position
+G0 X107.558 Y39.267
+G0 Z0.000
+; plunge
+G1 Z-0.200 F4000
+; cut
+G1 X138.467 Y18.108 F4000
+G1 X122.893 Y19.269
+; Retract
+G0 Z5.000
+
+; Path 27
+; Rapid to initial position
+G0 X106.903 Y49.745
+G0 Z0.000
+; plunge
+G1 Z-0.200 F4000
+; cut
+G1 X139.527 Y52.851 F4000
+G1 X127.261 Y64.620
+; Retract
+G0 Z5.000
+
+; Path 28
+; Rapid to initial position
+G0 X129.648 Y105.556
+G0 Z0.000
+; plunge
+G1 Z-0.200 F4000
+; cut
+G1 X169.690 Y134.724 F4000
+G1 X161.359 Y123.637
+; Retract
+G0 Z5.000
+
+; Path 29
+; Rapid to initial position
+G0 X166.409 Y130.429
+G0 Z0.000
+; plunge
+G1 Z-0.200 F4000
+; cut
+G1 X160.438 Y127.867 F4000
+G1 X85.532 Y80.922
+; Retract
+G0 Z5.000
+
+; Path 30
+; Rapid to initial position
+G0 X81.624 Y77.890
+G0 Z0.000
+; plunge
+G1 Z-0.200 F4000
+; cut
+G1 X150.899 Y123.665 F4000
+G1 X136.569 Y116.753
+; Retract
+G0 Z5.000
+
+; Path 31
+; Rapid to initial position
+G0 X119.649 Y134.199
+G0 Z0.000
+; plunge
+G1 Z-0.200 F4000
+; cut
+G1 X124.293 Y138.161 F4000
+G1 X87.237 Y115.868
+; Retract
+G0 Z5.000
+
+; Path 32
+; Rapid to initial position
+G0 X79.993 Y91.714
+G0 Z0.000
+; plunge
+G1 Z-0.200 F4000
+; cut
+G1 X161.442 Y125.167 F4000
+G1 X165.396 Y109.795
+; Retract
+G0 Z5.000
+
+; Path 33
+; Rapid to initial position
+G0 X170.557 Y130.780
+G0 Z0.000
+; plunge
+G1 Z-0.200 F4000
+; cut
+G1 X158.300 Y131.028 F4000
+G1 X66.833 Y81.374
+; Retract
+G0 Z5.000
+
+; Path 34
+; Rapid to initial position
+G0 X61.377 Y115.269
+G0 Z0.000
+; plunge
+G1 Z-0.200 F4000
+; cut
+G1 X120.248 Y91.133 F4000
+G1 X110.184 Y102.045
+; Retract
+G0 Z5.000
+
+; Path 35
+; Rapid to initial position
+G0 X61.377 Y115.269
+G0 Z0.000
+; plunge
+G1 Z-0.200 F4000
+; cut
+G1 X145.656 Y213.869 F4000
+G1 X160.991 Y216.698
+; Retract
+G0 Z5.000
+
+; Path 36
+; Rapid to initial position
+G0 X158.585 Y182.047
+G0 Z0.000
+; plunge
+G1 Z-0.200 F4000
+; cut
+G1 X180.224 Y174.306 F4000
+G1 X194.868 Y172.656
+; Retract
+G0 Z5.000
+
+; Path 37
+; Rapid to initial position
+G0 X205.733 Y169.265
+G0 Z0.000
+; plunge
+G1 Z-0.200 F4000
+; cut
+G1 X194.435 Y160.749 F4000
+G1 X168.944 Y140.161
+; Retract
+G0 Z5.000
+
+; Path 38
+; Rapid to initial position
+G0 X158.604 Y144.944
+G0 Z0.000
+; plunge
+G1 Z-0.200 F4000
+; cut
+G1 X161.332 Y151.358 F4000
+G1 X148.171 Y144.050
+; Retract
+G0 Z5.000
+
+; Path 39
+; Rapid to initial position
+G0 X151.010 Y150.114
+G0 Z0.000
+; plunge
+G1 Z-0.200 F4000
+; cut
+G1 X151.839 Y159.652 F4000
+G1 X143.619 Y161.708
+; Retract
+G0 Z5.000
+
+; Path 40
+; Rapid to initial position
+G0 X145.287 Y159.597
+G0 Z0.000
+; plunge
+G1 Z-0.200 F4000
+; cut
+G1 X155.433 Y172.333 F4000
+G1 X158.585 Y182.047
+; Retract
+G0 Z5.000
+
+; Path 41
+; Rapid to initial position
+G0 X144.771 Y169.311
+G0 Z0.000
+; plunge
+G1 Z-0.200 F4000
+; cut
+G1 X145.978 Y163.993 F4000
+G1 X158.604 Y144.944
+; Retract
+G0 Z5.000
+
+; Path 42
+; Rapid to initial position
+G0 X127.372 Y192.221
+G0 Z0.000
+; plunge
+G1 Z-0.200 F4000
+; cut
+G1 X133.362 Y199.216 F4000
+G1 X117.935 Y195.179
+; Retract
+G0 Z5.000
+
+; Path 43
+; Rapid to initial position
+G0 X88.665 Y33.498
+G0 Z0.000
+; plunge
+G1 Z-0.200 F4000
+; cut
+G1 X99.263 Y0.496 F4000
+G1 X92.066 Y-8.867
+; Retract
+G0 Z5.000
+M5          ; Switch tool offEnd
