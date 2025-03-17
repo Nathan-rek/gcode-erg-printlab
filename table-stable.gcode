@@ -1,0 +1,250 @@
+G21         ; Set units to mm
+G90         ; Absolute positioning
+
+;
+; Operation:    0
+; Type:         Mill Cut
+; Paths:        16
+; Direction:    Conventional
+; Rapid Z:      5
+; Start Z:      0
+; End Z:        -0.2
+; Pass Depth:   1
+; Plunge rate:  4000 mm/min
+; Cut rate:     4000 mm/min
+;
+; Retract
+G0 Z5.000
+
+; Path 0
+; Rapid to initial position
+G0 X641.075 Y491.334
+G0 Z0.000
+; plunge
+G1 Z-0.200 F4000
+; cut
+G1 X13.891 Y491.334 F4000
+G1 X13.891 Y13.578
+G1 X641.075 Y13.578
+G1 X641.075 Y491.334
+G1 X641.075 Y491.334
+; Retract
+G0 Z5.000
+
+; Path 1
+; Rapid to initial position
+G0 X621.320 Y476.284
+G0 Z0.000
+; plunge
+G1 Z-0.200 F4000
+; cut
+G1 X621.320 Y28.652 F4000
+G1 X33.683 Y28.652
+G1 X33.683 Y476.284
+G1 X621.320 Y476.284
+; Retract
+G0 Z5.000
+
+; Path 2
+; Rapid to initial position
+G0 X601.565 Y461.234
+G0 Z0.000
+; plunge
+G1 Z-0.200 F4000
+; cut
+G1 X53.475 Y461.234 F4000
+G1 X53.475 Y43.727
+G1 X601.565 Y43.727
+G1 X601.565 Y461.234
+G1 X601.565 Y461.234
+; Retract
+G0 Z5.000
+
+; Path 3
+; Rapid to initial position
+G0 X581.811 Y446.185
+G0 Z0.000
+; plunge
+G1 Z-0.200 F4000
+; cut
+G1 X581.811 Y58.801 F4000
+G1 X73.267 Y58.801
+G1 X73.267 Y446.185
+G1 X581.811 Y446.185
+; Retract
+G0 Z5.000
+
+; Path 4
+; Rapid to initial position
+G0 X562.057 Y431.135
+G0 Z0.000
+; plunge
+G1 Z-0.200 F4000
+; cut
+G1 X93.058 Y431.135 F4000
+G1 X93.058 Y73.875
+G1 X562.057 Y73.875
+G1 X562.057 Y431.135
+G1 X562.057 Y431.135
+; Retract
+G0 Z5.000
+
+; Path 5
+; Rapid to initial position
+G0 X542.302 Y416.085
+G0 Z0.000
+; plunge
+G1 Z-0.200 F4000
+; cut
+G1 X542.302 Y88.950 F4000
+G1 X112.850 Y88.950
+G1 X112.850 Y416.085
+G1 X542.302 Y416.085
+; Retract
+G0 Z5.000
+
+; Path 6
+; Rapid to initial position
+G0 X522.548 Y401.035
+G0 Z0.000
+; plunge
+G1 Z-0.200 F4000
+; cut
+G1 X132.642 Y401.035 F4000
+G1 X132.642 Y104.024
+G1 X522.548 Y104.024
+G1 X522.548 Y401.035
+G1 X522.548 Y401.035
+; Retract
+G0 Z5.000
+
+; Path 7
+; Rapid to initial position
+G0 X502.793 Y385.985
+G0 Z0.000
+; plunge
+G1 Z-0.200 F4000
+; cut
+G1 X502.793 Y119.099 F4000
+G1 X152.434 Y119.099
+G1 X152.434 Y385.985
+G1 X502.793 Y385.985
+; Retract
+G0 Z5.000
+
+; Path 8
+; Rapid to initial position
+G0 X483.039 Y370.935
+G0 Z0.000
+; plunge
+G1 Z-0.200 F4000
+; cut
+G1 X172.226 Y370.935 F4000
+G1 X172.226 Y134.173
+G1 X483.039 Y134.173
+G1 X483.039 Y370.935
+G1 X483.039 Y370.935
+; Retract
+G0 Z5.000
+
+; Path 9
+; Rapid to initial position
+G0 X463.284 Y355.885
+G0 Z0.000
+; plunge
+G1 Z-0.200 F4000
+; cut
+G1 X463.284 Y149.248 F4000
+G1 X192.018 Y149.248
+G1 X192.018 Y355.885
+G1 X463.284 Y355.885
+; Retract
+G0 Z5.000
+
+; Path 10
+; Rapid to initial position
+G0 X443.530 Y340.835
+G0 Z0.000
+; plunge
+G1 Z-0.200 F4000
+; cut
+G1 X211.809 Y340.835 F4000
+G1 X211.809 Y164.322
+G1 X443.530 Y164.322
+G1 X443.530 Y340.835
+G1 X443.530 Y340.835
+; Retract
+G0 Z5.000
+
+; Path 11
+; Rapid to initial position
+G0 X423.775 Y325.785
+G0 Z0.000
+; plunge
+G1 Z-0.200 F4000
+; cut
+G1 X423.775 Y179.397 F4000
+G1 X231.601 Y179.397
+G1 X231.601 Y325.785
+G1 X423.775 Y325.785
+; Retract
+G0 Z5.000
+
+; Path 12
+; Rapid to initial position
+G0 X404.021 Y310.735
+G0 Z0.000
+; plunge
+G1 Z-0.200 F4000
+; cut
+G1 X251.393 Y310.735 F4000
+G1 X251.393 Y194.471
+G1 X404.021 Y194.471
+G1 X404.021 Y310.735
+G1 X404.021 Y310.735
+; Retract
+G0 Z5.000
+
+; Path 13
+; Rapid to initial position
+G0 X384.266 Y295.685
+G0 Z0.000
+; plunge
+G1 Z-0.200 F4000
+; cut
+G1 X384.266 Y209.546 F4000
+G1 X271.185 Y209.546
+G1 X271.185 Y295.685
+G1 X384.266 Y295.685
+; Retract
+G0 Z5.000
+
+; Path 14
+; Rapid to initial position
+G0 X364.512 Y280.635
+G0 Z0.000
+; plunge
+G1 Z-0.200 F4000
+; cut
+G1 X290.977 Y280.635 F4000
+G1 X290.977 Y224.620
+G1 X364.512 Y224.620
+G1 X364.512 Y280.635
+G1 X364.512 Y280.635
+; Retract
+G0 Z5.000
+
+; Path 15
+; Rapid to initial position
+G0 X344.757 Y265.585
+G0 Z0.000
+; plunge
+G1 Z-0.200 F4000
+; cut
+G1 X344.757 Y239.694 F4000
+G1 X310.768 Y239.694
+G1 X310.768 Y265.585
+G1 X344.757 Y265.585
+; Retract
+G0 Z5.000
+M5          ; Switch tool offEnd
